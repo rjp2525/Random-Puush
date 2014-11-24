@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Puu.sh Images</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="loader"><img src="assets/img/loader.gif" alt="Loading, please wait..." class="ri"></div>
+  <div id="image"></div>
+  <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><button type="button" class="btn btn-danger navbar-btn" onClick="displayRandomImage()"><span class="fa fa-refresh"></span> Random Image</button></li>
+          <li><button type="button" class="btn btn-danger navbar-btn" id="directLink" title="Click to copy me."><span class="fa fa-clipboard"></span></button></li>
+          <li><button type="button" id="twitterShare" title="Share on Twitter" class="btn btn-primary navbar-btn"><span class="fa fa-twitter"></span></button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/clipboard.js"></script>
+  <script type="text/javascript" src="assets/js/application.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Custom Styles for Puu.sh Randomizer */
+
+.btn:focus,
+.navbar-btn:focus,
+.btn-danger:focus:focus {
+	outline: 0;
+}
+
+.navbar .navbar-inner {
+    padding: 0;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+    padding-right: 15px;
+}
+
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tooltip-inner {
+    white-space:pre;
+    max-width:none;
+}
+
+img.ri {
+    position: absolute;
+    max-width: 80%;
+    top: 5%;
+    left: 10%;
+}
+
+img.ri:empty {
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (orientation:portrait) {
+    img.ri {
+        max-width: 75%;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    img.ri {
+        max-height: 75%;
+    }
+}
